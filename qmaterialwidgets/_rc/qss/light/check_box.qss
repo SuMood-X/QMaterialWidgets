@@ -1,0 +1,62 @@
+CheckBox {
+    color: black;
+    font: 14px 'Segoe UI', 'Microsoft YaHei', 'PingFang SC';
+    spacing: 8px;
+    min-width: 36px;
+    min-height: 36px;
+    outline: none;
+    margin-left: 1px;
+    padding-left: 8px;
+}
+
+CheckBox::indicator {
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+    border: 2px solid #49454F;
+    background-color: transparent;
+}
+
+CheckBox::indicator:hover {
+    border: 2px solid #1D1B20;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+CheckBox::indicator:pressed {
+    border: 2px solid #1D1B20;
+    background-color: rgba(0, 0, 0, 0.12);
+}
+
+CheckBox::indicator:checked,
+CheckBox::indicator:indeterminate {
+    border: 2px solid --ThemeColorPrimary;
+    background-color: --ThemeColorPrimary;
+}
+
+
+CheckBox::indicator:checked:hover,
+CheckBox::indicator:indeterminate:hover {
+    border: 2px solid --ThemeColorLight1;
+    background-color: --ThemeColorLight1;
+}
+
+CheckBox::indicator:checked:pressed,
+CheckBox::indicator:indeterminate:pressed {
+    border: 2px solid --ThemeColorLight3;
+    background-color: --ThemeColorLight3;
+}
+
+CheckBox:disabled {
+    color: rgba(0, 0, 0, 110);
+}
+
+CheckBox::indicator:disabled {
+    border: 2px solid rgb(199, 199, 199);
+    background-color: transparent;
+}
+
+CheckBox::indicator:checked:disabled,
+CheckBox::indicator:indeterminate:disabled {
+    border: 2px solid rgb(199, 199, 199);
+    background-color: rgb(199, 199, 199);
+}

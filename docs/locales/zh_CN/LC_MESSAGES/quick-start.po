@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, zhiyiYo
+# This file is distributed under the same license as the QMaterialWidgets
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QMaterialWidgets \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-25 13:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/quick-start.rst:2 9159604b355e4137b57c1188bea05ff7
+msgid "Quick start"
+msgstr "快速开始"
+
+#: ../../source/quick-start.rst:5 3382579c104d415685e49da680a0d6ed
+msgid "Install"
+msgstr "安装"
+
+#: ../../source/quick-start.rst:7 3717fa1613f94758b505786c0d7550df
+msgid "To install Community version:"
+msgstr "安装社区版："
+
+#: ../../source/quick-start.rst:13 93d2077bf6104111b051116c8b9d348d
+msgid ""
+"The Community version only provides basic components, while the more "
+"advanced ones are available in the `Premium version "
+"<https://afdian.net/a/zhiyiYo?tab=shop>`__."
+msgstr "社区版只提供了基本的组件，`高级版 <https://afdian.net/a/zhiyiYo?tab=shop>`__ 中内置了更多复杂的组件，开箱即用，快速开发。"
+
+#: ../../source/quick-start.rst:16 01c97d239f4645a1b0a7109eebecb7d3
+msgid ""
+"If you are using PySide2, you can download the code in `PySide2 "
+"<https://github.com/zhiyiYo/QMaterialWidgets/tree/PySide2>`__ branch."
+msgstr ""
+"如果使用的是 PySide2，可以在 `PySide2 "
+"<https://github.com/zhiyiYo/QMaterialWidgets/tree/PySide2>`__ 分支下载源代码."
+
+#: ../../source/quick-start.rst:18 ed6cc88d4e3044758100b6d4d0a669b2
+msgid ""
+"Don't install PySide6-Material-Widgets and PySide2-Material-Widget, "
+"because their package names are all ``qmaterialwidgets``."
+msgstr ""
+"请勿同时安装 PySide2-Material-Widgets 和 PySide6-Material-Widgets，因为他们的包名都是 "
+"``qmaterialwidgets``"
+
+#: ../../source/quick-start.rst:21 6fee1b6412154d96916c9ab582119350
+msgid "Run example"
+msgstr "运行示例"
+
+#: ../../source/quick-start.rst:23 de545dd41f774f419b4cd875e96db72a
+msgid ""
+"After installing PySide6-Material-Widgets package using pip, you can run "
+"the demo in the examples directory, for example:"
+msgstr ""
+"使用 pip 安装完 PySide6-Material-Widgets 之后，你可以运行 `examples "
+"<https://github.com/zhiyiYo/QMaterialWidgets/tree/master/examples>`_ "
+"目录下的示例代码，比如："
+
+#: ../../source/quick-start.rst:31 666dd7b33a6e43ab82f645a1325fb3fe
+msgid ""
+"If you encounter ``ImportError: cannot import name 'XXX' from "
+"'qmaterialwidgets'``, it indicates that the imported components are only "
+"available in the Premium version."
+msgstr ""
+"如果遇到 ``ImportError: cannot import name 'XXX' from "
+"'qmaterialwidgets'``，这表明 demo 中导入的组件只在高级版可用。"
+
+#~ msgid "Or install Pro version:"
+#~ msgstr "安装高级版："
+

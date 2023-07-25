@@ -1,0 +1,73 @@
+QWidget {
+    background-color: white;
+}
+
+SwitchButton {
+    qproperty-spacing: 12;
+    background-color: transparent;
+}
+
+SwitchButton>QLabel {
+    color: black;
+    font: 14px 'Segoe UI', 'Microsoft YaHei', 'PingFang SC';
+    background-color: transparent;
+    border: none;
+}
+
+SwitchButton>QLabel:disabled {
+    color: rgba(0, 0, 0, 110);
+}
+
+
+Indicator {
+    /* height: 16px;
+    width: 30px; */
+    qproperty-sliderOnColor: white;
+    qproperty-sliderOffColor: --outline;
+    qproperty-sliderDisabledColor: --surface;
+    border-radius: 10px;
+}
+
+Indicator:!checked {
+    background-color: --surfaceContainerHighest;
+    border: 1px solid --outline;
+}
+
+Indicator:!checked:hover {
+    background-color: --surfaceContainerHigh;
+    qproperty-sliderOffColor: --onSurfaceVariant;
+}
+
+Indicator:!checked:pressed {
+    background-color: --surfaceContainer;
+    qproperty-sliderOffColor: --onSurfaceVariant;
+}
+
+Indicator:checked {
+    border: 1px solid --ThemeColorPrimary;
+    background-color: --ThemeColorPrimary;
+}
+
+Indicator:checked:hover {
+    border: 1px solid --ThemeColorLight1;
+    background-color: --ThemeColorLight1;
+    qproperty-sliderOnColor: --primaryContainer;
+}
+
+Indicator:checked:pressed {
+    qproperty-sliderOnColor: --primaryContainer;
+    border: 1px solid --ThemeColorLight2;
+    background-color: --ThemeColorLight2;
+}
+
+Indicator:checked:disabled {
+    border: 1px solid rgb(227, 221, 228);
+    background-color: rgb(227, 221, 228);
+    qproperty-sliderDisabledColor: rgb(167, 162, 169);
+}
+
+Indicator:!checked:disabled {
+    qproperty-sliderDisabledColor: rgb(167, 162, 169);
+    border: 1px solid rgb(224, 218, 226);
+    background-color: transparent;
+}

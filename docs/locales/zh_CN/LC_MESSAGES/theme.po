@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, zhiyiYo
+# This file is distributed under the same license as the QMaterialWidgets
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QMaterialWidgets \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-25 14:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/theme.md:1 4c713b8966aa4b6e9776908571f50cf9
+msgid "Theme"
+msgstr "主题"
+
+#: ../../source/theme.md:3 c66b6eec9a2c404c97f61c4d30e0a078
+msgid "Theme mode"
+msgstr "主题模式"
+
+#: ../../source/theme.md:4 888d038af04848ebaa140b1809f6f80c
+msgid ""
+"You can use the setTheme() method to switch the light/dark theme of "
+"QMaterialWidgets. The parameter of setTheme() accepts the following three"
+" values:"
+msgstr "`setTheme()` 函数用于切换 PySide-Material-Widgets 全部组件的亮暗主题。该函数接受下述值："
+
+#: ../../source/theme.md:5 241b356208cc44f9a0fd21b60a31a57b
+msgid "Theme.LIGHT: Light theme"
+msgstr "`Theme.LIGHT`：浅色主题"
+
+#: ../../source/theme.md:6 e5382f99f7b7460db18a5509fa79043b
+msgid "Theme.DARK: Dark theme"
+msgstr "`Theme.DARK`：深色主题"
+
+#: ../../source/theme.md:7 a0c0ae02b3e5459abed1f4737fabe467
+msgid ""
+"Theme.AUTO: Follow system theme. If the system theme cannot be detected, "
+"the light theme will be used."
+msgstr "`Theme.AUTO`：跟随系统主题。如果无法检测到系统的主题，将使用浅色主题。"
+
+#: ../../source/theme.md:9 8acca0b9e222466e8f9f4b397e11f0d4
+msgid ""
+"When the theme changes, the config instance managed by qconfig (i.e., the"
+" config object passed in using the qconfig.load() method) will emit the "
+"themeChanged signal."
+msgstr ""
+"当主题发生改变时，`qconfig` 将会发出 `themeChanged` 信号。"
+
+#: ../../source/theme.md:11 ca72e27227e442e188f9fa26086473c5
+msgid ""
+"If you want to automatically switch the interface style when the theme "
+"changes, you can inherit StyleSheetBase and override the path() method. "
+"Suppose you have a MainWindow class and its qss file paths are "
+"app/resource/qss/light/main_window.qss and "
+"app/resource/qss/dark/main_window.qss, the code can be written like this:"
+msgstr ""
+"如果想在主题发生改变时，自动切换界面的样式，可以继承 `StyleSheetBase` 类并重写 `path()` 方法。假设有一个 "
+"`MainWindow` 类，它的 qss 文件路径为 `app/resource/qss/light/main_window.qss` 和  "
+"`app/resource/qss/dark/main_window.qss`，那么代码可以这么写："
+
+#: ../../source/theme.md:38 384b338f1f6a4c0594f2d7f7bc35f26f
+msgid "Theme color"
+msgstr "主题色"
+
+#: ../../source/theme.md:39 17a8abc2827a4cd99b881defe83723de
+msgid ""
+"You can use setThemeColor() method to change the theme color of "
+"QMaterialWidgets. This method accepts the following three types of "
+"parameters:"
+msgstr "`setThemeColor()` 函数用于修改全部组件的主题色。该函数接受三种类型的值："
+
+#: ../../source/theme.md:40 bcbb50c3ad664914a650419f4ff5cda6
+msgid "QColor"
+msgstr ""
+
+#: ../../source/theme.md:41 ac501d452df8411abff7549d237751a0
+msgid "Qt.GlobalColor"
+msgstr ""
+
+#: ../../source/theme.md:42 6783d6f4c440404292b3ee2bb56fdf8a
+msgid "str: Hex color strings or color names, such as #0065d5 or red."
+msgstr "`str`：十六进制颜色字符串或者颜色名字，比如 `#0065d5` 或者 `red`"
+
+#: ../../source/theme.md:44 6b3e215b3bec4b31b694b049dbd9909d
+msgid ""
+"When the theme color changes, qconfig will emit the themeColorChanged "
+"signal."
+msgstr "当主题发生改变时，`qconfig` 会发出 `themeColorChanged` 信号。"
+

@@ -1,0 +1,59 @@
+<RCC>
+    <qresource prefix="/gallery">
+        <file>images/icons/Grid_black.svg</file>
+        <file>images/icons/Grid_white.svg</file>
+        <file>images/icons/Menu_black.svg</file>
+        <file>images/icons/Menu_white.svg</file>
+        <file>images/icons/Text_black.svg</file>
+        <file>images/icons/Text_white.svg</file>
+        <file>images/icons/ChatBubble_black.svg</file>
+        <file>images/icons/ChatBubble_white.svg</file>
+        <file>images/icons/ChatBubbleOutline_black.svg</file>
+        <file>images/icons/ChatBubbleOutline_white.svg</file>
+        <file>images/icons/Mail_black.svg</file>
+        <file>images/icons/Mail_white.svg</file>
+        <file>images/icons/MailOutline_black.svg</file>
+        <file>images/icons/MailOutline_white.svg</file>
+        <file>images/icons/People_black.svg</file>
+        <file>images/icons/People_white.svg</file>
+        <file>images/icons/PeopleOutline_black.svg</file>
+        <file>images/icons/PeopleOutline_white.svg</file>
+        <file>images/icons/Videocam_black.svg</file>
+        <file>images/icons/Videocam_white.svg</file>
+        <file>images/icons/VideocamOutline_black.svg</file>
+        <file>images/icons/VideocamOutline_white.svg</file>
+        <file>images/chidanta.jpg</file>
+        <file>images/chidanta2.jpg</file>
+        <file>images/chidanta3.jpg</file>
+        <file>images/chidanta4.jpg</file>
+        <file>images/chidanta5.jpg</file>
+        <file>images/header.png</file>
+        <file>images/header1.png</file>
+        <file>images/kunkun.png</file>
+        <file>images/shoko.png</file>
+        <file>images/Gyro.jpg</file>
+        <file>images/SBR.jpg</file>
+
+        <file>qss/dark/gallery_interface.qss</file>
+        <file>qss/dark/home_interface.qss</file>
+        <file>qss/dark/icon_interface.qss</file>
+        <file>qss/dark/link_card.qss</file>
+        <file>qss/dark/sample_card.qss</file>
+        <file>qss/dark/setting_interface.qss</file>
+        <file>qss/dark/view_interface.qss</file>
+        <file>qss/dark/navigation_view_interface.qss</file>
+
+        <file>qss/light/gallery_interface.qss</file>
+        <file>qss/light/home_interface.qss</file>
+        <file>qss/light/icon_interface.qss</file>
+        <file>qss/light/link_card.qss</file>
+        <file>qss/light/sample_card.qss</file>
+        <file>qss/light/setting_interface.qss</file>
+        <file>qss/light/view_interface.qss</file>
+        <file>qss/light/navigation_view_interface.qss</file>
+
+        <file>i18n/gallery.zh_CN.qm</file>
+        <file>i18n/gallery.zh_HK.qm</file>
+
+    </qresource>
+</RCC>

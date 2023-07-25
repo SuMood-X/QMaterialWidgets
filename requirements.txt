@@ -1,0 +1,3 @@
+PySide6<=6.4.2
+PySideSix-Frameless-Window
+darkdetect

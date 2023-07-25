@@ -1,0 +1,161 @@
+PushButton, ToolButton, ToggleButton, ToggleToolButton {
+    color: --ThemeColorPrimary;
+    /* font: 14px 'Segoe UI', 'Microsoft YaHei'; */
+    padding: 8px 24px 9px 24px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+ToolButton {
+    padding: 8px 9px 9px 8px;
+}
+
+PushButton[hasIcon=false] {
+    padding: 8px 24px 9px 24px;
+}
+
+PushButton[hasIcon=true] {
+    padding: 8px 24px 9px 40px;
+}
+
+PushButton:disabled {
+    color: rgba(255, 255, 255, 0.37);
+}
+
+TextPushButton[hasIcon=false] {
+    padding: 8px 13px 9px 13px;
+}
+
+TextPushButton[hasIcon=true] {
+    padding: 8px 17px 9px 37px;
+}
+
+DropDownToolButton,
+PrimaryDropDownToolButton {
+    padding: 5px 31px 6px 8px;
+}
+
+DropDownPushButton[hasIcon=false],
+PrimaryDropDownPushButton[hasIcon=false] {
+    padding: 5px 31px 6px 12px;
+}
+
+DropDownPushButton[hasIcon=true],
+PrimaryDropDownPushButton[hasIcon=true] {
+    padding: 5px 31px 6px 36px;
+}
+
+
+#splitPushButton:pressed,
+#splitToolButton:pressed,
+SplitDropButton:pressed {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+
+FilledPushButton,
+PrimaryToolButton,
+ToggleButton:checked,
+ToggleToolButton:checked {
+    color: black;
+}
+
+ElevatedPushButton {
+    color: --ThemeColorPrimary;
+}
+
+TonalPushButton {
+    color: white;
+}
+
+
+SplitDropButton,
+PrimarySplitDropButton {
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#splitPushButton,
+#splitToolButton,
+#primarySplitPushButton,
+#primarySplitToolButton {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right-color: rgba(255, 255, 255, 0.08);
+}
+
+#primarySplitPushButton,
+#primarySplitToolButton {
+    border-right-color: --ThemeColorDark3;
+}
+
+#primarySplitPushButton:pressed,
+#primarySplitToolButton:pressed {
+    border-right: 1px solid --ThemeColorLight2;
+}
+
+
+RadioButton {
+    min-height: 30px;
+    max-height: 30px;
+    padding-left: 5px;
+    background-color: transparent;
+    font: 14px 'Segoe UI', 'Microsoft YaHei', 'PingFang SC';
+    color: white;
+}
+
+RadioButton::indicator {
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    border: 2px solid #CAC4D0;
+    background-color: transparent;
+    margin-right: 4px;
+}
+
+RadioButton::indicator:hover {
+    border: 2px solid #E6E0E9;
+    background-color: rgba(255, 255, 255, 7);
+}
+
+RadioButton::indicator:pressed {
+    border: 2px solid #E6E0E9;
+    background-color: rgba(255, 255, 255, 10);
+}
+
+RadioButton::indicator:checked {
+    height: 20px;
+    width: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5,
+            stop:0 --ThemeColorPrimary,
+            stop:0.5 --ThemeColorPrimary,
+            stop:0.6 transparent,
+            stop:0.8 transparent,
+            stop:0.9 --ThemeColorPrimary,
+            stop:1 --ThemeColorPrimary);
+}
+
+
+RadioButton:disabled {
+    color: rgba(255, 255, 255, 110);
+}
+
+RadioButton::indicator:disabled {
+    border: 2px solid #646464;
+    background-color: transparent;
+}
+
+RadioButton::indicator:disabled:checked {
+    border: none;
+    background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5,
+            stop:0 #646464,
+            stop:0.5 #646464,
+            stop:0.6 transparent,
+            stop:0.8 transparent,
+            stop:0.9 #646464,
+            stop:1 #646464);
+}

@@ -1,0 +1,23 @@
+#centerWidget {
+    border: none;
+    border-radius: 20px;
+    background-color: --surfaceContainerHigh;
+}
+
+QLabel {
+    background-color: transparent;
+    border: none;
+}
+
+QLabel#titleLabel {
+    font: 22px 'Segoe UI', 'Microsoft YaHei', 'PingFang SC';
+    color: --onSurface;
+    padding: 0;
+}
+
+#contentLabel {
+    padding: 0;
+    font: 14px 'Segoe UI', 'Microsoft YaHei', 'PingFang SC';
+    border: none;
+    color: --onSurfaceVariant;
+}

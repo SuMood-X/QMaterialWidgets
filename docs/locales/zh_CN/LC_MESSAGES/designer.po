@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, zhiyiYo
+# This file is distributed under the same license as the QMaterialWidgets
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QMaterialWidgets \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-25 13:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/designer.rst:3 0579c7d3852e4f349e6c0f9ce0528412
+msgid "Designer"
+msgstr "设计师"
+
+#: ../../source/designer.rst:5 d0431e171e9b4650839b2178de565498
+msgid "In Qt Designer, there are two ways to use QMaterialWidgets."
+msgstr "在 Qt Designer 中，有两种使用 PySide6-Material-Widgets 的方式。"
+
+#: ../../source/designer.rst:8 8812a42681b24680941598ef8934c1f8
+msgid "Promoting widget"
+msgstr "提升控件"
+
+#: ../../source/designer.rst:10 94e9007dc69645bca5b569f95e20d417
+msgid "Right click on a widget, select the ``Promote to ...`` of context menu."
+msgstr "右击一个小部件，选择右击菜单上的 `提升为...`"
+
+#: ../../source/designer.rst:12 f11f2798985744469e11714ab1ced7b4
+#, fuzzy
+msgid ""
+"Promoting a widget indicates that it should be replaced with the "
+"specified subclass, in our case the "
+"``qmaterialwidgets.FilledPushButton``."
+msgstr "``提升为`` 的作用是把原生部件替换成自定义小部件，在这个例子中是 ``qmaterialwidgets.PushButton``。"
+
+#: ../../source/designer.rst:19 8b8153a7bc3347eaa9d1594877284bc9
+msgid ""
+"You will be presented with a dialog to specify the custom widget class "
+"the placeholder widget will become."
+msgstr "弹出的对话框上需要填写自定义的组件名。"
+
+#: ../../source/designer.rst:21 90296281083140b4a526ad6872a85990
+#, fuzzy
+msgid ""
+"The header file is the name of the Python module used to import the "
+"class, which is ``qmaterialwidgets``. Specify ``FilledPushButton`` as the"
+" class name of the widget to replace it with."
+msgstr "头文件是组件库的包名 ``qmaterialwidgets``，提升的类名称为 ``PushButton``。"
+
+#: ../../source/designer.rst:28 68f2cb808d8649df83f8047595faa992
+#, fuzzy
+msgid ""
+"Well, the widget is now promoted to fluent push button. But you won't be "
+"able to see any changes within Qt Designer. Save the window as "
+"``mainwindow.ui`` and compile it to python code, you will see that the "
+"``FilledPushButton`` is imported from ``qmaterialwidgets`` package."
+msgstr "完成提升后不会在设计师中看到任何变化，保存 ui 文件后编译为 py 代码，可以发现 ``import`` 的是 ``PushButton``。"
+
+#: ../../source/designer.rst:31 bd54e79c14a745cbaece21b524f3e25a
+msgid "Using plugin"
+msgstr "使用插件"
+
+#: ../../source/designer.rst:33 5618cb7b512b445ca28f04a708517947
+msgid "create a virtual environment, ``conda`` is the recommended way."
+msgstr "创建一个虚拟环境，推荐使用 ``conda``"
+
+#: ../../source/designer.rst:36 34c095bd749d4ee4aaf16fab78e5eb3b
+msgid "Activate virtual environment and run the following code in shell:"
+msgstr "激活虚拟环境，在终端中输入下述命令安装所需的包："
+
+#: ../../source/designer.rst:42 585baed66fa34e789c752f468647016c
+msgid ""
+"Download the full code from `QMaterialWidgets Repo "
+"<https://github.com/zhiyiYo/QMaterialWidgets>`_."
+msgstr "从 `QMaterialWidgets 仓库 <https://github.com/zhiyiYo/QMaterilWidgets>`_ 下载代码"
+
+#: ../../source/designer.rst:44 0541d5ab9a5b42e2a1528bb6e3b6d378
+msgid ""
+"Run ``python ./tools/designer.py`` to launch Qt Designer (You must use "
+"this way to launch Qt Designer)."
+msgstr "运行 ``python ./tools/designer.py`` 来启动设计师软件（必须使用脚本启动）"
+
+#: ../../source/designer.rst:47 b60c9c62dc37439f993fbd077215c6c2
+msgid ""
+"If everything goes smoothly, you will see all QMaterialWidgets components"
+" in the sidebar of Qt Designer. If the startup fails or the components of"
+" QMaterialWidgets cannot be seen, the solution can be found in `#196 "
+"<https://github.com/zhiyiYo/PyQt-Fluent-Widget/issues/196>`_."
+msgstr ""
+"一切无误的情况下能在侧边栏 Widget Box 中看到 PySide6-Material-Widgets 的组件。如果启动失败或者看不到 "
+"PySide6-Material-Widgets 的组件，解决方案参见 `#196 <https://github.com/zhiyiYo"
+"/PyQt-Fluent-Widgets/issues/196>`_。"
+
