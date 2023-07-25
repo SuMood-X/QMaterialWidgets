@@ -37,7 +37,7 @@ pip install PySide6-Material-Widgets -i https://pypi.org/simple/
 The Community version only provides basic components, while the more advanced ones are available in the [Premium version](https://afdian.net/a/zhiyiYo?tab=shop).
 
 > **Warning**
-> Don't install PySide6-Material-Widgets and PySide2-Fluent-Widgets at the same time, because their package names are all `qmaterialwidgets`.
+> Don't install PySide6-Material-Widgets and PySide2-Material-Widgets at the same time, because their package names are all `qmaterialwidgets`.
 
 
 ## Run Example
@@ -50,7 +50,7 @@ python demo.py
 If you encounter `ImportError: cannot import name 'XXX' from 'qmaterialwidgets'`, it indicates that the imported components are only available in the Premium version.
 
 ## Documentation
-Want to know more about PySide6-Material-Widgets? Please read the [help document](https://pyside-fluent-widgets.readthedocs.io/) 👈
+Want to know more about PySide6-Material-Widgets? Please read the [help document](https://qmaterialwidgets.readthedocs.io/) 👈
 
 ## Video Demonstration
 Check out this [▶ example video](https://www.bilibili.com/video/BV12c411L73q) that shows off what PySide6-Material-Widgets are capable of 🎉

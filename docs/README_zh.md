@@ -45,7 +45,7 @@ pip install PySide6-Material-Widgets -i https://pypi.org/simple/
 
 
 ## 运行示例▶️
-使用 pip 安装好 PySide6-Fluent-Widgets 包并下载好此仓库的代码之后，就可以运行 examples 目录下的示例程序，比如：
+使用 pip 安装好 PySide6-Material-Widgets 包并下载好此仓库的代码之后，就可以运行 examples 目录下的示例程序，比如：
 ```python
 cd examples/button
 python demo.py
@@ -60,7 +60,7 @@ python demo.py
 如果这个组件库帮助了您，或者是想支持作者继续开发和维护这个组件库，可以在 [爱发电](https://afdian.net/a/zhiyiYo) 或者 [ko-fi](https://ko-fi.com/zhiyiYo) 上请作者喝一杯奶茶。您的支持就是作者开发和维护的动力 🥰。
 
 ## 演示视频📽️
-请查收哔哩哔哩上的 [视频合集](https://www.bilibili.com/video/BV12c411L73q)，它展示了 PySide6-Fluent-Widgets 的全部组件和特性 🎉
+请查收哔哩哔哩上的 [视频合集](https://www.bilibili.com/video/BV12c411L73q)，它展示了 PySide6-Material-Widgets 的全部组件和特性 🎉
 
 ## 搭配 QtDesigner🚀
 运行 `python ./tools/designer.py` 启动安装了 PySide6-Material-Widgets 插件的 QtDesigner。如果操作成功，QtDesigner 的侧边栏中将会显示 PySide6-Material-Widgets 的组件。对于旧项目的改造，推荐使用 [视频教程](https://www.bilibili.com/video/BV1na4y1V7jH) 中介绍的 `提升为...`。
