@@ -9,12 +9,16 @@
 </p>
 
 <p align="center">
-  <a style="text-decoration:none">
-    <img src="https://img.shields.io/badge/Version-0.1.0-blue?color=#4ec820" alt="Version 0.1.0"/>
+  <a href="https://pypi.org/project/PySide6-Material-Widgets" target="_blank">
+    <img src="https://img.shields.io/pypi/v/pyside6-material-widgets?color=%2334D058&label=Version" alt="Version">
   </a>
 
   <a style="text-decoration:none">
-    <img src="https://img.shields.io/badge/License-GPLv3-blue?color=#4ec820" alt="License GPLv3"/>
+    <img src="https://static.pepy.tech/personalized-badge/pyside6-material-widgets?period=total&units=international_system&left_color=grey&right_color=brightgreen&left_text=Downloads" alt="Download"/>
+  </a>
+
+  <a style="text-decoration:none">
+    <img src="https://img.shields.io/badge/License-GPLv3-blue?color=#4ec820" alt="GPLv3"/>
   </a>
 
   <a style="text-decoration:none">
@@ -53,7 +57,7 @@ If you encounter `ImportError: cannot import name 'XXX' from 'qmaterialwidgets'`
 Want to know more about PySide6-Material-Widgets? Please read the [help document](https://qmaterialwidgets.readthedocs.io/) 👈
 
 ## Video Demonstration
-Check out this [▶ example video](https://www.bilibili.com/video/BV12c411L73q) that shows off what PySide6-Material-Widgets are capable of 🎉
+Check out this [▶ example video](https://www.bilibili.com/video/BV1k14y1z74o) that shows off what PySide6-Material-Widgets are capable of 🎉
 
 ## Work with QtDesigner
 You can use PySide6-Material-Widgets in QtDesigner directly by running `python ./tools/designer.py`. If the operation is successful, you should be able to see the PySide6-Material-Widgets in the sidebar of QtDesigner.
